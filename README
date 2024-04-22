@@ -2,14 +2,14 @@
 ##运行显示前需要退出其他显示程序，例如X11等，使用命令sudo service ligthdm stop
 
 
-###v4l2 to display 版本编译方法 用于抓图存储并显示 需要退出x11并且初始化isp###
+###  v4l2 to display 版本编译方法 用于抓图存储并显示 需要退出x11并且初始化isp###
 
 1. create the build direcotry like mkdir -p build
 2. enter build and run the cmake command, like cd build && cmake ..
 3. run make command to get the v4l2_cap 
 4. push v4l2_cap to the board and run it like ./v4l2_cap
-###注：已经把main的参数要求去掉
-
+###   注：已经把main的参数要求去掉
+##  已经把显示阶段的初始化放在了抓图之前，这样可以减轻抓图的延迟，缺点是会先显示绿色的画面，然后isp进行初始化，绿色画面总时间600-800ms
 
 
 ###原始版本编译方法 用于抓图存储###
