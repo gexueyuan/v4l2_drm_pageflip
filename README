@@ -1,3 +1,5 @@
+###原始版本编译方法###
+|将v4l2_cap_origin.c改为v4l2_cap.c
 1. create the build direcotry like mkdir -p build
 2. enter build and run the cmake command, like cd build && cmake ..
 3. run make command to get the v4l2_cap 
