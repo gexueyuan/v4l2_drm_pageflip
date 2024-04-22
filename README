@@ -1,6 +1,22 @@
-###原始版本编译方法###
+##抓图前需要进行摄像头管线初始化：isp_720p.sh
+##运行显示前需要退出其他显示程序，例如X11等，使用命令sudo service ligthdm stop
+
+
+###v4l2 to display 版本编译方法 用于抓图存储并显示 需要退出x11并且初始化isp###
+
+1. create the build direcotry like mkdir -p build
+2. enter build and run the cmake command, like cd build && cmake ..
+3. run make command to get the v4l2_cap 
+4. push v4l2_cap to the board and run it like ./v4l2_cap
+###注：已经把main的参数要求去掉
+
+
+
+###原始版本编译方法 用于抓图存储###
 |将v4l2_cap_origin.c改为v4l2_cap.c
 1. create the build direcotry like mkdir -p build
 2. enter build and run the cmake command, like cd build && cmake ..
 3. run make command to get the v4l2_cap 
 4. push v4l2_cap to the board and run it like ./v4l2_cap cap.yuv. you can get 2 frames yuv file.
+
+
