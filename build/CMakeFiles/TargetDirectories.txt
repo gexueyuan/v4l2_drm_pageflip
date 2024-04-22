@@ -1,0 +1,3 @@
+/home/linaro/v4l2_app/build/CMakeFiles/rebuild_cache.dir
+/home/linaro/v4l2_app/build/CMakeFiles/v4l2_cap.dir
+/home/linaro/v4l2_app/build/CMakeFiles/edit_cache.dir

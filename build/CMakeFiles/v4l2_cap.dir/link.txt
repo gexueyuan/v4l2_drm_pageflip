@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-gcc -Wall -O0 -g -I/usr/local/include -I/usr/local/include/libdrm -L/usr/local/lib/aarch64-linux-gnu -ldrm   CMakeFiles/v4l2_cap.dir/v4l2_cap.c.o  -o v4l2_cap 

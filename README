@@ -1,0 +1,4 @@
+1. create the build direcotry like mkdir -p build
+2. enter build and run the cmake command, like cd build && cmake ..
+3. run make command to get the v4l2_cap 
+4. push v4l2_cap to the board and run it like ./v4l2_cap cap.yuv. you can get 2 frames yuv file.
